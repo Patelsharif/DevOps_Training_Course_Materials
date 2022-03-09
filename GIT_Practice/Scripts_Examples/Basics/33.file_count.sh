@@ -1,5 +1,7 @@
 #!/bin/bash
 if [ -d "$@" ]; then
+# find is the command to fid teh files or directories
+
 echo "Files found: $(find "$@" -type f | wc -l)"
 echo "Folders found: $(find "$@" -type d | wc -l)"
 else
