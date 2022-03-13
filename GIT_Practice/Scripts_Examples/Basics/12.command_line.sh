@@ -1,4 +1,4 @@
-#!/bin/bash
+`ii`#!/bin/bash
 echo "Total arguments : $#"
 for arg in "$@"
 do
